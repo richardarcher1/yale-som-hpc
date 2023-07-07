@@ -1,0 +1,2 @@
+can run "scontrol show nodes" to see what nodes are available
+
