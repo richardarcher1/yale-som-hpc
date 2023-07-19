@@ -1,0 +1,18 @@
+try to load miniconda
+try to load anaconda
+try to create conda environment to activtae later
+SLURM_JOBID=2929222
+ 
+SLURM_JOB_NODELIST=c12
+ 
+/usr/lpp/mmfs/bin:/usr/local/cuda-11.1/bin:/gpfs/home/rka28/.local/bin:/gpfs/home/rka28/bin:/opt/ohpc/admin/spack/spack/bin:/opt/ohpc/pub/mpi/libfabric/1.12.1/bin:/opt/ohpc/pub/mpi/ucx-ohpc/1.9.0/bin:/opt/ohpc/pub/mpi/openmpi4-gnu9/4.0.5/bin:/opt/ohpc/pub/compiler/gcc/9.3.0/bin:/opt/ohpc/pub/utils/prun/2.1:/opt/ohpc/pub/utils/autotools/bin:/opt/ohpc/pub/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/var/lib/snapd/snap/bin:/opt/dell/srvadmin/sbin:/opt/ibm/ILOG/CPLEX_Studio1210/cplex/matlab/x86-64_linux:/opt/dell/srvadmin/sbin
+ 
+ 
+/var/spool/slurm/d/job2929222/slurm_script: line 40: conda: command not found
+
+/var/spool/slurm/d/job2929222/slurm_script: line 43: conda: command not found
+
+trying to activate conda without #
+/var/spool/slurm/d/job2929222/slurm_script: line 49: conda: command not found
+trying to activate conda with # (ie through sbatch)
+/var/spool/slurm/d/job2929222/slurm_script: line 55: python: command not found
