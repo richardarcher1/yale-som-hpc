@@ -1,4 +1,4 @@
-name: dpo1
+name: my_first_environment
 channels:
   - defaults
   - conda-forge

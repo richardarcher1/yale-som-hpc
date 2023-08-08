@@ -1,22 +1,17 @@
 # test to see if conda was loaded well
+
+print("Now running python code:")
+
+with open("logs/run.txt", "w") as file:
+	x = 5
+	file.write(f"This is an example of a log: save variable {x}")
+
+
 try:
 	import torch
+	print("Torch was successfully loaded")
 except:
 	print("failed to import torch")
 
 
-
-try:
-	import numpy as np
-except:
-	print("failed to import numpy")
-
-
-print("if this is the first message you see, everything is loaded!")
-
-try:
-	x = torch.randn(3,4,5)
-	print(f"the third element of the tensor is {x.flatten()[2].item()}")
-	print(f"The tensor is size {x.size()}")
-except:
-	print("something did not work with the random tensor")
+print("Script complete.")

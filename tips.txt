@@ -1,7 +1,0 @@
-can run "scontrol show nodes" to see what nodes are available
-even if sbatch scrips end in .sh, you want to run them as sbatch script.sh NOT bash script.sh
-
-can run squeue --me to see what your jobs are
-sacct -j [job id] to check a jobb status
-
-seff 1234 to check the efficiency of job 1234
